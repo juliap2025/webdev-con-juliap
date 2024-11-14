@@ -1,0 +1,145 @@
+/*---------------------------------
+@IMPORT FONTS
+---------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*---------------------------------
+SIMPLE RESET
+---------------------------------*/
+html, body, div, span, a, h1, h2, h3, h4, h5, h6, p, blockquote, img, ol, ul, li, input, label, select, footer, header, menu, nav, section{
+	margin: 0; 
+	padding: 0; 
+	font-size: 100%; 
+	list-style: none; 
+	border: 0;
+}
+
+/*---------------------------------
+TABLE OF CONTENTS
+-----------------------------------
+1. Color Library
+2. General Styles
+3. Grid Styles
+4. Buttons & Navigation
+5. Headers & Hero
+6. Main 
+  	 6a. About
+  	 6b. Testimonials
+  	 6c. Schedule
+  	 6d. Speakers
+7. Footers
+8. Registration
+*/
+/*---------------------------------
+1. Color Library
+---------------------------------*/
+:root{
+    --neutral-black:#000;
+    --neutral-white:#FFF; 
+    --primary: #457B9D;
+	--primary-drk: #1D3557;
+	--primary-drk2: #31587A;
+	--primary-tnt: #F1FAEE;
+	--primary-tnt2: #A8DADC;
+	--secondary: #E63946;
+	--secondary-drk: #DB0313;
+	--secondary-drk2: #CC1928;
+	--secondary-tnt: ;
+	--tertiary: #EE9055;
+	--tertiary-drk: #EA762E;
+	--tertiary-tnt: ;
+}
+/*---------------------------------
+2. General Styles
+---------------------------------*/
+body{
+    background-color:var(--primary-tnt);
+    color:var(--primary-drk);
+    font:normal 400 18px/1.5em 'Montserrat', 'Helvetica', sans-serif;
+}
+h1{
+    color:var(--primary-tnt2);
+}
+h2{
+    font-size:50px;
+}
+h1,h2,h4{
+    font-weight:700;
+    color:var(--primary);
+}
+h3{
+    font-weight:500;
+    font-size:48px;
+    line-height:1.2em;
+    color:var(--primary-drk2);
+}
+h4{
+    font-size:24px;
+}
+a{
+    text-decoration:none;
+    color:var(--primary);
+}
+
+header,footer{
+    background-color:var(--primary-tnt2);
+    
+}
+.highlight{
+    background-color:yellow;
+    font-weight:500;
+}
+nav li a:hover{
+    color:var(--primary-drk2);
+    font-weight:600;
+}
+.main-nav li, .footer-nav li{
+    list-style-type:none;
+}
+nav li{
+    display:inline-block;
+}
+/*---------------------------------
+3. Grid Styles
+---------------------------------*/
+*,
+*:before,
+*:after{
+box-sizing:border-box;
+}
+.flexbox{
+    display:flex;
+}
+.padding{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.container{
+    width:1440px;
+    max-width:85vw;
+    margin:auto;
+}
+/*---------------------------------
+4. Buttons & Navigation
+---------------------------------*/
+
+/*---------------------------------
+5. Headers & Hero
+---------------------------------*/
+
+/*---------------------------------
+6. Main
+---------------------------------*/
+    /*>>>>>>>> 6a. About <<<<<<<<<<*/
+    /*>>>>>>>> 6b. Testimonials <<<<<<<<<<*/
+    /*>>>>>>>> 6c. Schedule <<<<<<<<<<*/
+    /*>>>>>>>> 6d. Speakers <<<<<<<<<<*/
+/*---------------------------------
+7. Footers
+---------------------------------*/
+
+/*---------------------------------
+8. Registration
+---------------------------------*/
+
+/*this is a multi-selector because it selects more than one element in my html*/
